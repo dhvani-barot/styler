@@ -1,0 +1,20 @@
+2018-04-07T16:36:13+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_theme_activation_hook() in /var/www/html/styler/wp-content/themes/styler/functions.php:167
+Stack trace:
+#0 /var/www/html/styler/wp-settings.php(426): include()
+#1 /var/www/html/styler/wp-config.php(89): require_once('/var/www/html/s...')
+#2 /var/www/html/styler/wp-load.php(37): require_once('/var/www/html/s...')
+#3 /var/www/html/styler/wp-admin/admin.php(31): require_once('/var/www/html/s...')
+#4 /var/www/html/styler/wp-admin/themes.php(10): require_once('/var/www/html/s...')
+#5 {main}
+  thrown
+
+2018-04-07T16:36:17+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_theme_activation_hook() in /var/www/html/styler/wp-content/themes/styler/functions.php:167
+Stack trace:
+#0 /var/www/html/styler/wp-settings.php(426): include()
+#1 /var/www/html/styler/wp-config.php(89): require_once('/var/www/html/s...')
+#2 /var/www/html/styler/wp-load.php(37): require_once('/var/www/html/s...')
+#3 /var/www/html/styler/wp-admin/admin.php(31): require_once('/var/www/html/s...')
+#4 /var/www/html/styler/wp-admin/themes.php(10): require_once('/var/www/html/s...')
+#5 {main}
+  thrown
+

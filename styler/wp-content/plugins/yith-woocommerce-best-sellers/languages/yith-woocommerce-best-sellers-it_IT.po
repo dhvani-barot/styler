@@ -1,0 +1,532 @@
+# Copyright (C) 2015 YIThemes
+# This file is distributed under the same license as the YITH Plugin Starter package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Best Sellers\n"
+"Report-Msgid-Bugs-To: Your Inspiration Themes <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2015-09-28 13:11+0200\n"
+"PO-Revision-Date: 2015-09-28 15:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <info@yithemes.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: class.yith-wcbsl-admin.php:127
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class.yith-wcbsl-admin.php:129
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: class.yith-wcbsl-admin.php:153
+msgid "Plugin Documentation"
+msgstr "Documentazione plugin"
+
+#: class.yith-wcbsl-admin.php:175
+msgctxt "tab name in \"YIT Plugins\" menu"
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class.yith-wcbsl-admin.php:176
+msgctxt "tab name in \"YIT Plugins\" menu"
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: class.yith-wcbsl-admin.php:184
+msgctxt "plugin name in admin page title"
+msgid "Best Sellers"
+msgstr "Best Sellers"
+
+#: class.yith-wcbsl-admin.php:185
+msgctxt "plugin name in admin WP menu"
+msgid "Best Sellers"
+msgstr "Best Sellers"
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:28
+msgid "Display first 3 best-seller products."
+msgstr "Mostra i primi 3 prodotti più venduti."
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:30
+msgid "YITH WooCommerce Best Sellers"
+msgstr "YITH WooCommerce Best Sellers"
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:35
+msgid "Best Sellers"
+msgstr "Best Seller"
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:36
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:41
+msgid "Show thumbnails for best-seller products"
+msgstr "Mostra miniature per i prodotti più venduti"
+
+#: includes/class.yith-wcbsl-install.php:70
+msgctxt "page_slug"
+msgid "bestsellers"
+msgstr "bestseller"
+
+#: includes/class.yith-wcbsl-install.php:71
+msgid "Bestsellers"
+msgstr "Bestseller"
+
+#: init.php:43
+msgid ""
+"YITH WooCommerce Best Sellers is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Best Sellers è abilitato ma non in funzione. Devi aver installato "
+"WooCommerce perché questo possa funzionare correttamente."
+
+#: init.php:52
+msgid ""
+"You can't activate the free version of YITH WooCommerce Best Sellers while you are "
+"using the premium one."
+msgstr ""
+"Non è possibile attrivare la versione free di YITH WooCommerce Colors and Labels "
+"Variations se stai già utilizzando la premium."
+
+#: plugin-options/settings-options.php:12
+msgid "General Options"
+msgstr "Opzioni generali"
+
+#: plugin-options/settings-options.php:20
+msgid "Show \"Best Seller\" badge"
+msgstr "Mostra adesivo \"Best Seller\""
+
+#: plugin-options/settings-options.php:22
+msgid "Select to show \"Best Seller\" badge on best-seller products."
+msgstr "Seleziona per mostrare l'adesivo \"Best Seller\" sui prodotti più venduti."
+
+#: templates/bestseller-badge.php:14
+msgctxt "Text of \"Bestseller\" Badge"
+msgid "Best Seller"
+msgstr "Best Seller"
+
+#: templates/premium.php:232 templates/premium.php:374
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Best Sellers%2$s to "
+"benefit from all features!"
+msgstr ""
+"Aggiorna alla%1$sversion e premium%2$s di %1$sYITH WooCommerce Best Sellers%2$s "
+"per usufruire di tutte le sue funzionalità!"
+
+#: templates/premium.php:235 templates/premium.php:377
+msgid "UPGRADE"
+msgstr "AGGIORNA"
+
+#: templates/premium.php:236 templates/premium.php:378
+msgid "to the premium version"
+msgstr "alla versione premium"
+
+#: templates/premium.php:242
+msgid "Premium Features"
+msgstr "Funzionalità premium"
+
+#: templates/premium.php:245 templates/premium.php:250
+msgid "Sale index"
+msgstr "Indice delle vendite"
+
+#: templates/premium.php:253
+#, php-format
+msgid ""
+"Shop page is richer because it adds to your best-seller products a badge index of "
+"sales. This index informs users about %1$ssales trend%2$s for each product, if "
+"they have increased or decreased in comparison to the previous day, week, month or "
+"year. A simple way to show everyone most requested products in your store."
+msgstr ""
+"La pagina Shop si arricchisce ancora grazie alla possibilità di visualizzare su "
+"tutti i prodotti più venduti un %1$sindicatore di vendite%2$s. Questo informa "
+"l’utente su un eventuale incremento o decremento delle vendite su ciascun "
+"prodotto. Un modo semplice per permetterti di rendere visibile a tutti quali sono "
+"i prodotti più richiesti e di effettuare questo calcolo rispetto al giorno, la "
+"settimana, il mese o l’anno precedente."
+
+#: templates/premium.php:263
+msgid "Sales quantity"
+msgstr "Quantità venduta"
+
+#: templates/premium.php:266
+#, php-format
+msgid ""
+"Administrators only will be able to see also the number of items sold for "
+"registered products since the first order or since the day, the week, the month or "
+"year before. In a glance, then, you will have an %1$soverview on products%2$s in "
+"your shop."
+msgstr ""
+"Solo per gli amministratori dello shop sarà possibile visualizzare il numero di "
+"vendite che il prodotto ha registrato a partire dal primo ordine o tenendo conto "
+"di quelli ricevuti a distanza di un giorno, settimana, mese o anno.\n"
+"In un colpo d’occhio potrai quindi avere una %1$sparonamica completa sui prodotti"
+"%2$s del tuo shop."
+
+#: templates/premium.php:270
+msgid "sales quantity"
+msgstr "quantità di vendite"
+
+#: templates/premium.php:277 templates/premium.php:282
+msgid "Product category"
+msgstr "Categoria prodotto"
+
+#: templates/premium.php:285
+#, php-format
+msgid ""
+"Thanks to the premium version, your users will be able to display %1$stop 100 best "
+"sellers for each category%2$s in your shop. Only this way, you will be able to see "
+"products belonging to the same category sorted according to number of sales."
+msgstr ""
+"Grazie alla versione premium del plugin metterai i tuoi utenti nelle condizioni di "
+"visualizzare i %1$s100 prodotti più venduti per ogni categoria%2$s nello shop. "
+"Solo così avrai la possibilità di visualizzare tutti i prodotti appartenenti alla "
+"categoria ordinati in base al numero di vendite."
+
+#: templates/premium.php:295
+msgid "\"Bestseller\" badge "
+msgstr "badge \"Bestseller\""
+
+#: templates/premium.php:298
+#, php-format
+msgid ""
+"Highlight all products that have generated more sales by applying to them the "
+"badge %1$s\"Bestseller\"%2$s, which will be shown both in shop page and in product "
+"detail page. But this is not all: change its %1$scolours%2$s and %1$stext%2$s to "
+"suit it to the style of your theme."
+msgstr ""
+"Evidenzia tutti i prodotti più venduti grazie all’utilizzo del badge %1$s“Best "
+"Seller”%2$s, associato al prodotto sia nella pagina Shop che in quella di "
+"dettaglio.\n"
+"Ma non fermarti alla semplice attivazione del badge: modificane %1$scolori%2$s e "
+"%1$stesto%2$s per renderlo uniforme allo stile del tuo tema."
+
+#: templates/premium.php:309 templates/premium.php:314
+msgid "Best seller icon"
+msgstr "Icona bestseller"
+
+#: templates/premium.php:317
+#, php-format
+msgid ""
+"Another way to highlight your best-seller products (among the first 100 with more "
+"sales). Use the icon made available with the plugin or use your own custom icon to "
+"give to mark your product as %1$sbest seller%2$s but by giving it your personal "
+"style."
+msgstr ""
+"Un altro modo per evidenziare ogni prodotto del tuo shop che rientra tra i primi "
+"100 per numero di vendite. Utilizza l’icona suggerita dal plugin o una tua "
+"personalizzata per etichettare ufficialmente il tuo prodotto come %1$s“Best "
+"Seller”%2$s."
+
+#: templates/premium.php:327
+msgid "2 widgets"
+msgstr "2 widget"
+
+#: templates/premium.php:330
+#, php-format
+msgid ""
+"Two %1$spowerful tools%2$s to make sidebars of your site richer with interesting "
+"information about best seller products. Thanks to these widgets, you will be able "
+"to show best sellers of the whole shop, or best seller belonging to all or just "
+"some selected categories."
+msgstr ""
+"Due %1$spotenti strumenti%2$s per arricchire le sidebar del tuo sito con "
+"interessanti informazioni sui prodotti più venduti. Grazie ad essi potrai "
+"facilmente mostrare i prodotti più venduti di tutto lo shop oppure i best seller "
+"di tutte o soltanto di alcune categorie selezionate."
+
+#: templates/premium.php:346
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: templates/premium.php:349
+#, php-format
+msgid ""
+"Enjoy now the countless opportunities offered to you by the plugin YITH "
+"WooCommerce Best Sellers. One of useful features is the possibility to use the "
+"shortcode %1$s\"Best Seller Slider\"%2$s to display best-seller products in a "
+"complete and dynamic way."
+msgstr ""
+"Approfitta subito delle funzionalità e delle innumerevoli opportunità che ti offre "
+"la versione premium del plugin YITH WooCommerce Best Sellers. Tra queste spicca la "
+"presenza dello shortcode %1$s“Best Seller Slider”%2$s grazie al quale tutti i "
+"prodotti più venduti dello shop saranno mostrati in uno slider, per una "
+"visualizzazione completa e dinamica."
+
+#: templates/premium.php:359
+msgid "Rss"
+msgstr "RSS"
+
+#: templates/premium.php:362
+#, php-format
+msgid ""
+"Let your users be informed about products of your shop and keep always updated "
+"thanks to the possibility to subscribe %1$sRSS feed%2$s of your site. A simple "
+"additional feature for a top service!"
+msgstr ""
+"Offri ai tuoi utenti la possibilità di seguire i prodotti del tuo shop e rimanere "
+"sempre aggiornati iscrivendosi ai %1$sfeed RSS%2$s del tuo sito. Una piccola "
+"funzionalità in più per un servizio sempre al top!"
+
+#~ msgid "Display Options"
+#~ msgstr "Opzioni di visualizzazione"
+
+#~ msgid "Show Position in Product Page"
+#~ msgstr "Mostra posizione nella pagina prodotto"
+
+#~ msgid "Select to show bestseller ranking position in single product page."
+#~ msgstr ""
+#~ "Seleziona per mostrare la posizione nella classifica bestseller all'interno "
+#~ "della pagina singolo prodotto."
+
+#~ msgid "Show Category Top 100 link in Product Page"
+#~ msgstr "Mostra il link Top 100 categoria nella pagina prodotto"
+
+#~ msgid "Select to show the link to category Top 100 in single product pages."
+#~ msgstr ""
+#~ "Seleziona per mostrare il link ai 100 bestseller per categoria nella pagina "
+#~ "singolo prodotto."
+
+#~ msgid "Show Category Top 100 link in Category Pages"
+#~ msgstr "Mostra link Top 100 categoria nella pagina categoria"
+
+#~ msgid "Select to show the link to category Top 100 in category pages."
+#~ msgstr ""
+#~ "Seleziona per mostrare il link ai 100 bestseller per categoria nella pagina "
+#~ "categoria."
+
+#~ msgid "Show ranking indicator"
+#~ msgstr "Mostra indicatore classifica"
+
+#~ msgid "Select to show ranking indicator in Best Sellers Pages."
+#~ msgstr "Seleziona per mostrare l'indicatore classifica nella pagina Best Sellers."
+
+#~ msgid "Show rss link"
+#~ msgstr "Mostra link rss"
+
+#~ msgid "Select to show RSS link in Best Sellers Pages."
+#~ msgstr "Seleziona per mostrare il link RSS nelle pagine Best Sellers."
+
+#~ msgid "Advanced Options"
+#~ msgstr "Opzioni avanzate"
+
+#~ msgid "Bestseller Update Time"
+#~ msgstr "Aggiornamento classifiche bestseller"
+
+#~ msgid "Select update time for Best Sellers Reporting"
+#~ msgstr "Seleziona ogni quanto aggiornare le classifiche dei bestseller"
+
+#~ msgid "1 Day"
+#~ msgstr "Ogni giorno"
+
+#~ msgid "7 Days"
+#~ msgstr "7 giorni"
+
+#~ msgid "Solar Month"
+#~ msgstr "Mese solare"
+
+#~ msgid "Solar Year"
+#~ msgstr "Anno solare"
+
+#~ msgid "Unlimited"
+#~ msgstr "Da sempre"
+
+#~ msgid "Badge text"
+#~ msgstr "Testo badge"
+
+#~ msgid "Select the text for \"Best Seller\" Badges"
+#~ msgstr "Inserisci qui il testo per gli adesivi \"Best Seller\""
+
+#~ msgid "Slider Title"
+#~ msgstr "Intestazione slider"
+
+#~ msgid "Enter the text you want to display as title of Best Sellers Slider"
+#~ msgstr ""
+#~ "Inserisci il testo che vuoi mostrare come intestazione dello slider Best Seller"
+
+#~ msgctxt "Text of \"Bestsellers\" Slider"
+#~ msgid "Best Sellers"
+#~ msgstr "Best Seller"
+
+#~ msgid "Colors"
+#~ msgstr "Colori"
+
+#~ msgid "Badge background color"
+#~ msgstr "Colore badge"
+
+#~ msgid "Select background color for \"Best Seller\" Badges"
+#~ msgstr "Seleziona un colore per gli adesivi \"Best Seller\""
+
+#~ msgid "Badge text color"
+#~ msgstr "Colore testo badge"
+
+#~ msgid "Select color for the text of \"Best Seller\" Badges"
+#~ msgstr "Seleziona il colore del testo per i badge \"Best Seller\""
+
+#~ msgid "Links background color"
+#~ msgstr "Colore link"
+
+#~ msgid "Select background color for \"Top 100\" links"
+#~ msgstr "Seleziona il colore per i link \"Top 100\""
+
+#~ msgid "Links text color"
+#~ msgstr "Colore testo link"
+
+#~ msgid "Select color for the text of \"Top 100\" links"
+#~ msgstr "Seleziona il colore per il testo dei link \"Top 100\""
+
+#~ msgid "Best Seller Seal"
+#~ msgstr "Distintivo Best seller"
+
+#~ msgid "Show Seal in Best Sellers"
+#~ msgstr "Mostra distintivo in Best Seller"
+
+#~ msgid "Select to show seal for Best Sellers in their single product page."
+#~ msgstr ""
+#~ "Seleziona per mostrare il distintivo Best Seller nella pagina singolo prodotto."
+
+#~ msgid "Upload your custom Best Seller Seal"
+#~ msgstr "Carica un distintivo best seller personalizzato"
+
+#~ msgid "Position"
+#~ msgstr "Posizione"
+
+#~ msgid "Select the position you want to apply to Best Seller Seals."
+#~ msgstr "Seleziona la posizione per il distintivo Best Seller."
+
+#~ msgid "Before summary"
+#~ msgstr "Prima del riepilogo"
+
+#~ msgid "Before description"
+#~ msgstr "Prima della descrizione"
+
+#~ msgid "Below description"
+#~ msgstr "Sotto la descrizione"
+
+#~ msgid "Below \"Add to Cart\" Button"
+#~ msgstr "Sotto il pulsante \"Aggiungi al carrello\""
+
+#~ msgid "Below summary"
+#~ msgstr "Sotto il riepilogo"
+
+#~ msgid "Align"
+#~ msgstr "Allineamento"
+
+#~ msgid "Select alignment you want to apply to Best Seller Seals."
+#~ msgstr "Seleziona l'allineamento da applicare al distintivo Best Seller"
+
+#~ msgid "Left"
+#~ msgstr "A sinistra"
+
+#~ msgid "Center"
+#~ msgstr "Centrato"
+
+#~ msgid "Right"
+#~ msgstr "A destra"
+
+#~ msgid "A list or dropdown of Best Seller categories."
+#~ msgstr "Elenco categorie Best Seller"
+
+#~ msgid "YITH WooCommerce Best Seller Categories"
+#~ msgstr "Categorie YITH WooCommerce Best Seller"
+
+#~ msgid "Best Seller Categories"
+#~ msgstr "Categorie Best Seller"
+
+#~ msgid "Order by"
+#~ msgstr "Ordina per"
+
+#~ msgid "Category Order"
+#~ msgstr "Ordine cateogorie"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Show hierarchy"
+#~ msgstr "Mostra gerarchia"
+
+#~ msgid "Show only in Best Sellers Page"
+#~ msgstr "Mostra solo nella pagina Best Seller"
+
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#~ msgid ""
+#~ "Select Product Categories you want to display. Leave it empty for displaying "
+#~ "all."
+#~ msgstr ""
+#~ "Seleziona le categorie prodotti che vuoi mostrare. Lascia il campo vuoto per "
+#~ "mostrarle tutte."
+
+#~ msgid "No product categories exist."
+#~ msgstr "Non esistono categorie di prodotti."
+
+#~ msgid "Display best-seller products."
+#~ msgstr "Mostra prodotti più venduti."
+
+#~ msgid "Newest Best Sellers"
+#~ msgstr "I best seller più nuovi"
+
+#~ msgctxt "type of widget"
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Number of products to show"
+#~ msgstr "Numerodi prodotti da mostrare"
+
+#~ msgid "show Newest Top 100"
+#~ msgstr "Mostra la nuova top 100"
+
+#~ msgid "Feed for all posts filed in %s"
+#~ msgstr "Feed per tutti i post in %s"
+
+#~ msgid ""
+#~ "YITH WooCommerce Best Sellers Premium is enabled but not effective. It requires "
+#~ "WooCommerce in order to work."
+#~ msgstr ""
+#~ "YITH WooCommerce Best Sellers - Premium è abilitato ma non in funzione. Devi "
+#~ "aver installato WooCommerce perché questo possa funzionare correttamente."
+
+#~ msgid "sale"
+#~ msgid_plural "sales"
+#~ msgstr[0] "vendita"
+#~ msgstr[1] "vendite"
+
+#~ msgid "Best Sellers in category %s"
+#~ msgstr "Best Seller nella categoria %s"
+
+#~ msgid "show "
+#~ msgstr "mostra"
+
+#~ msgid "Newest Products in Top 100"
+#~ msgstr "Prodotti nuovi nella Top 100"
+
+#~ msgid "No Best Sellers found"
+#~ msgstr "Non sono stati trovati Best seller"
+
+#~ msgid "show %s Top 100"
+#~ msgstr "mostra top 100 di %s"
+
+#~ msgid "Best Seller position"
+#~ msgstr "Posizione best seller"
+
+#~ msgid "show Top 100"
+#~ msgstr "mostra Top 100"
+
+#~ msgid "No. %1$s in %2$s"
+#~ msgstr "N. %1$s in %2$s"
+
+#~ msgid "Select to show position of products in single product page."
+#~ msgstr "Seleziona per mostrare la posizione dei prodotti nella pagina prodotto."
